@@ -22,22 +22,21 @@ We also try the parameter k range from 2, 3, 5, 7 to see the difference.
 Following are the selected results:
 
 #### Original Dataset:
-![Original Data][originaldata]
+<img src="./screenshot/originaldata/originaldata.png" alt="Original Data" width="300" height="300">
 
 The red points are edible mushrooms, the green points are poisonous mushrooms.
 
 There is some unsure mushroom data mixed in the poisonous mushrooms data. The green data in the left will have high possibility to be the unsure part. The green data in the right will have high possibility to be the poisonous part.
 
 #### K = 2
-![K = 2][k-means3d-2]
+<img src="./screenshot/kmeans/3d/k_means3d_2.png" alt="K = 2" width="300" height="300">
 The cluster result verifies previous assumption.
 
 #### K = 3
-![K = 3][k-means3d-3]
+<img src="./screenshot/kmeans/3d/k_means3d_3.png" alt="K = 3" width="300" height="300">
 
 #### K = 5
-![K = 3][k-means3d-5]
-
+<img src="./screenshot/kmeans/3d/k_means3d_5.png" alt="K = 5" width="300" height="300">
 
 ---
 
@@ -49,12 +48,11 @@ We also try the parameter k range from 2, 3, 5, 7 to see the difference.
 Following are the selected results:
 
 #### K = 2
-![K = 2][k-med3d-2]
+<img src="./screenshot/kmedoids/3d/k_med3d_2.png" alt="K = 2" width="300" height="300">
 The cluster result verifies previous assumption.
 
 #### K = 3
-![K = 3][k-med3d-3]
-
+<img src="./screenshot/kmedoids/3d/k_med3d_3.png" alt="K = 3" width="300" height="300">
 ---
 
 #### K-nearest neighbor (KNN)
