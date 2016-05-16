@@ -22,22 +22,22 @@ We also try the parameter k range from 2, 3, 5, 7 to see the difference.
 Following are the selected results:
 
 #### Original Dataset:
-<img src="./screenshot/originaldata/originaldata.png" alt="Original Data" width="400" height="400">
+<img src="./screenshot/originaldata/originaldata.png" alt="Original Data" width="380" height="380">
 
 The red points are edible mushrooms, the green points are poisonous mushrooms.
 
 There is some unsure mushroom data mixed in the poisonous mushrooms data. The green data in the left will have high possibility to be the unsure part. The green data in the right will have high possibility to be the poisonous part.
 
 #### K = 2
-<img src="./screenshot/kmeans/3d/k_means3d_2.png" alt="K = 2" width="400" height="400">
+<img src="./screenshot/kmeans/3d/k_means3d_2.png" alt="K = 2" width="380" height="380">
 
 The cluster result verifies previous assumption.
 
 #### K = 3
-<img src="./screenshot/kmeans/3d/k_means3d_3.png" alt="K = 3" width="400" height="400">
+<img src="./screenshot/kmeans/3d/k_means3d_3.png" alt="K = 3" width="380" height="380">
 
 #### K = 5
-<img src="./screenshot/kmeans/3d/k_means3d_5.png" alt="K = 5" width="400" height="400">
+<img src="./screenshot/kmeans/3d/k_means3d_5.png" alt="K = 5" width="380" height="380">
 
 ---
 
@@ -49,16 +49,16 @@ We also try the parameter k range from 2, 3, 5, 7 to see the difference.
 Following are the selected results:
 
 #### K = 2
-<img src="./screenshot/kmedoids/3d/k_med3d_2.png" alt="K = 2" width="400" height="400"> 
+<img src="./screenshot/kmedoids/3d/k_med3d_2.png" alt="K = 2" width="380" height="380"> 
 
 The cluster result verifies previous assumption.
 
 #### K = 3
-<img src="./screenshot/kmedoids/3d/k_med3d_3.png" alt="K = 3" width="400" height="400">
+<img src="./screenshot/kmedoids/3d/k_med3d_3.png" alt="K = 3" width="380" height="380">
 ---
 
 #### K-nearest neighbor (KNN)
-We seperate the original data into training data and test data for ratio as 50:50, 60:40, 70:30. The accuracies with K-nearest neighbor (KNN).
+We seperate the original data into training data and test data for ratio as 50:50, 60:40, 70:30. The accuracies with K-nearest neighbor(KNN).
 
 
 |     | 50:50  | 60:40  | 70:30  |
@@ -90,16 +90,4 @@ Accuracies with 3 features reduced by PCA.
 
 ### Update Note
 > #### V0.9   05/16/2016
-Initialize projects, provide rough results.
-
-
-
-[originaldata]: ./screenshot/originaldata/originaldata.png
-[k-means3d-2]: ./screenshot/kmeans/3d/k_means3d_2.png
-[k-means3d-3]: ./screenshot/kmeans/3d/k_means3d_3.png
-[k-means3d-5]: ./screenshot/kmeans/3d/k_means3d_5.png
-
-[k-med3d-2]: ./screenshot/kmedoids/3d/k_med3d_2.png
-[k-med3d-3]: ./screenshot/kmedoids/3d/k_med3d_3.png
-
-
+Resize pictures for a better view.
