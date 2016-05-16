@@ -30,6 +30,7 @@ There is some unsure mushroom data mixed in the poisonous mushrooms data. The gr
 
 #### K = 2
 <img src="./screenshot/kmeans/3d/k_means3d_2.png" alt="K = 2" width="400" height="400">
+
 The cluster result verifies previous assumption.
 
 #### K = 3
